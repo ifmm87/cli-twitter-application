@@ -1,0 +1,33 @@
+{
+  "name": "ivan-tool",
+  "version": "1.0.0",
+  "description": "This is a cli app",
+  "main": "index.js",
+  "bin": {
+    "ivan-tool": "./bin/ivan-tool.js"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifmm87/cli-twitter-application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifmm87/cli-twitter-application/issues"
+  },
+  "homepage": "https://github.com/ifmm87/cli-twitter-application#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dirty-chai": "^2.0.1",
+    "eslint": "^6.5.1",
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0"
+  },
+  "dependencies": {
+    "configstore": "^5.0.0",
+    "inquirer": "^7.0.0"
+  }
+}
